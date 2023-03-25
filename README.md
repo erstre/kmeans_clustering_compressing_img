@@ -11,6 +11,8 @@ The k-means algorithm has several advantages, including its simplicity and effic
 ### Part I
 In the first part of the code the k-means algorithm is implemented and employed on a dataset od random points. This part illustrates how the centroids chenge in each iteration.
 
+![ScreenShot](https://user-images.githubusercontent.com/128051856/227733083-7411762c-3fe5-481b-8113-4bcf679e9560.png)
+
 ### Prerequisites
 
 The following software needs to be installed.

@@ -9,9 +9,17 @@ Matlab implementation of [k-Means](https://en.wikipedia.org/wiki/K-means_cluster
 The k-means algorithm has several advantages, including its simplicity and efficiency in terms of computational complexity. However, it is sensitive to the initial placement of centroids and may converge to a local minimum rather than the global minimum. Additionally, it assumes that the clusters have a spherical shape and are of equal size, which may not always be the case in real-world data sets.
 
 ### Part I
-In the first part of the code the k-means algorithm is implemented and employed on a dataset of random points. This part illustrates how the centroids change in each iteration.
+In the first part of the code the k-means clustering algorithm is implemented and employed on a dataset of random points. This part illustrates how the centroids change in each iteration.
 
 ![ScreenShot](https://user-images.githubusercontent.com/128051856/227733083-7411762c-3fe5-481b-8113-4bcf679e9560.png)
+
+### Part II
+In the second part of the code the k-means clustering algorithm is employed in order to compress an image. In particular, the code:
+- Runs K-Means on the colors of the pixels in the image.
+- Maps each pixel on to it's closest centroid. 
+
+### Part III
+Finally, we compress the image based on user's parameters, i.e., number of centroids and number of iterations, and demonstrate the compressed image.
 
 ### Prerequisites
 
